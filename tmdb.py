@@ -4,6 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
+A=2
 
 # Load the CSV data into a pandas DataFrame
 df = pd.read_csv("tmdb-movies.csv")
